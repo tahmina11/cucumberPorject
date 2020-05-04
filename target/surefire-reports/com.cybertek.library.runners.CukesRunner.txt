@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.cybertek.library.runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 139.578 s <<< FAILURE! - in com.cybertek.library.runners.CukesRunner
+Login.Login as a student  Time elapsed: 13.335 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for url to contain "dashboard". Current url: "http://library2.cybertekschool.com/#books" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tahminas-MacBook-Air.local', ip: '2601:140:7:1a06:e02e:2aa0:1fa6:bb3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: /var/folders/0l/sj8l7z5n16l...}, goog:chromeOptions: {debuggerAddress: localhost:63477}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d089ff2aed851281f0dea54ca1f0462b
+
+Login.Login as an admin  Time elapsed: 9.481 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for url to contain "dashboard". Current url: "http://library2.cybertekschool.com/login.html" (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tahminas-MacBook-Air.local', ip: '2601:140:7:1a06:e02e:2aa0:1fa6:bb3e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.129, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: /var/folders/0l/sj8l7z5n16l...}, goog:chromeOptions: {debuggerAddress: localhost:63505}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cbcd4980e24685ec75afd928d378d279
+

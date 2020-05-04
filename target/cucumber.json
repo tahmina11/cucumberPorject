@@ -1,0 +1,196 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-02T06:28:37.853Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7787682000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.library.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verify book information",
+        "description": "",
+        "id": "books-table;verify-book-information",
+        "after": [
+          {
+            "output": [
+              "Complete scenario: Verify book information"
+            ],
+            "result": {
+              "duration": 283127000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cybertek.library.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2578001000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on the login page",
+            "match": {
+              "location": "com.cybertek.library.step_definitions.LoginStepDefs.i_am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 669958000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I login to application as a librarian",
+            "match": {
+              "arguments": [
+                {
+                  "val": "librarian",
+                  "offset": 28
+                }
+              ],
+              "location": "com.cybertek.library.step_definitions.LoginStepDefs.i_login_to_application_as_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 637236000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I navigate to \"Books\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Books\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.cybertek.library.step_definitions.PageNavigationStepDefs.i_go_to_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1749639000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I edit book The kite runner",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The kite runner",
+                  "offset": 12
+                }
+              ],
+              "location": "com.cybertek.library.step_definitions.BooksTableStepDefinitions.i_edit_book_The_kiterunner(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 315347000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I verify book information",
+            "match": {
+              "location": "com.cybertek.library.step_definitions.BooksTableStepDefinitions.i_verify_book_information(com.cybertek.library.pojos.Book)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "name",
+                  "author",
+                  "year"
+                ]
+              },
+              {
+                "cells": [
+                  "The kite runner",
+                  "Khaled Hosseini",
+                  "2003"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@books"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@lib-2453"
+          },
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@librarian"
+          }
+        ]
+      }
+    ],
+    "name": "books table",
+    "description": "",
+    "id": "books-table",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/BooksTable.feature",
+    "tags": [
+      {
+        "name": "@books",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 15
+        }
+      },
+      {
+        "name": "@lib-2453",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 27
+        }
+      }
+    ]
+  }
+]
